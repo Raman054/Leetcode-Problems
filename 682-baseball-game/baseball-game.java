@@ -25,11 +25,10 @@ class Solution {
             }
         }
         int result = 0;
-            for(int i : st)
-            {
-                result += i;
-                
-            }
-            return result;
+        for(int i : st)
+        {
+            result += i;                
+        }
+        return result;
     }
 }
