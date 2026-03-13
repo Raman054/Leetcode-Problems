@@ -1,7 +1,7 @@
 class StockSpanner {
-    Stack<int[]> st = new Stack<>();
+    Stack<int[]> st;
     public StockSpanner() {
-        
+        st = new Stack<>();
     }
     
     public int next(int price) {
