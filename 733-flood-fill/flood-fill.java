@@ -11,12 +11,12 @@ class Solution {
         backtrack(grid,row,col-1,color,num);
     }
     public int[][] floodFill(int[][] image, int sr, int sc, int color) {
-        int num = image[sr][sc];
+        int startingnum = image[sr][sc];
         if(image[sr][sc] == color)
         {
             return image;
         }
-        backtrack(image,sr,sc,color,num);
+        backtrack(image,sr,sc,color,startingnum);
         return image;
     }
 }
